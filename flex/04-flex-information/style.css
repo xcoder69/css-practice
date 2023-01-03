@@ -8,6 +8,8 @@ img {
 }
 
 .title {
+  text-align: center;
+  margin-bottom: 32px;
   font-size: 36px;
   font-weight: 900;
 }
@@ -23,4 +25,14 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.images{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+.each{
+  width: 200px;
+  text-align: center;
 }
